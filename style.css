@@ -18,7 +18,9 @@ body{
   height: 70px;
   background-color: transparent;
   position: absolute;
-  bottom: 375px;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  left: 50%;
 }
 
 #display{
@@ -39,7 +41,9 @@ body{
   height: 375px;
   margin: auto;
   position: absolute;
-  bottom: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .first_row , .second_row , .third_row , .fourth_row , .fifth_row{
